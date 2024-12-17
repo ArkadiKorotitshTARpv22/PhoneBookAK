@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="bookings">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="booking" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="client">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"/>
+                                        <xs:element name="phone" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="details">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="service" type="xs:string"/>
+                                        <xs:element name="carNumber" type="xs:string"/>
+                                        <xs:element name="time" type="xs:dateTime"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="dimensions">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="dim1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dim2">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="dim3" type="xs:string"/>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="attribute" type="xs:string"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="attribute" type="xs:string"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

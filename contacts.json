@@ -1,0 +1,77 @@
+{
+    "Country": [
+        {
+            "@attributes": {
+                "name": "Estonia"
+            },
+            "City": {
+                "@attributes": {
+                    "name": "Tallinn"
+                },
+                "Contact": [
+                    {
+                        "ID": "1",
+                        "FirstName": "Mortin",
+                        "PhoneNumber": "1234567",
+                        "Gender": "Male"
+                    },
+                    {
+                        "ID": "2",
+                        "FirstName": "Klerni",
+                        "PhoneNumber": "9876543",
+                        "Gender": "Female"
+                    },
+                    {
+                        "ID": "5",
+                        "FirstName": "Arkadi",
+                        "PhoneNumber": "55964223",
+                        "Gender": "Male"
+                    },
+                    {
+                        "ID": "6",
+                        "FirstName": "Kirill",
+                        "PhoneNumber": "55961234",
+                        "Gender": "Male"
+                    }
+                ]
+            }
+        },
+        {
+            "@attributes": {
+                "name": "Finland"
+            },
+            "City": [
+                {
+                    "@attributes": {
+                        "name": "Helsinki"
+                    },
+                    "Contact": [
+                        {
+                            "ID": "3",
+                            "FirstName": "Bahis",
+                            "PhoneNumber": "5551234",
+                            "Gender": "Male"
+                        },
+                        {
+                            "ID": "7",
+                            "FirstName": "Maksim",
+                            "PhoneNumber": "59684403",
+                            "Gender": "Male"
+                        }
+                    ]
+                },
+                {
+                    "@attributes": {
+                        "name": "Espoo"
+                    },
+                    "Contact": {
+                        "ID": "4",
+                        "FirstName": "Esperdo",
+                        "PhoneNumber": "5555678",
+                        "Gender": "Female"
+                    }
+                }
+            ]
+        }
+    ]
+}

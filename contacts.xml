@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PhoneBook>
+    <Country name="Estonia">
+        <City name="Tallinn">
+            <Contact>
+                <ID>1</ID>
+                <FirstName>Mortin</FirstName>
+                <PhoneNumber>1234567</PhoneNumber>
+                <Gender>Male</Gender>
+            </Contact>
+            <Contact>
+                <ID>2</ID>
+                <FirstName>Klerni</FirstName>
+                <PhoneNumber>9876543</PhoneNumber>
+                <Gender>Female</Gender>
+            </Contact>
+        <Contact><ID>5</ID><FirstName>Arkadi</FirstName><PhoneNumber>55964223</PhoneNumber><Gender>Male</Gender></Contact><Contact><ID>6</ID><FirstName>Kirill</FirstName><PhoneNumber>55961234</PhoneNumber><Gender>Male</Gender></Contact></City>
+    </Country>
+
+    <Country name="Finland">
+        <City name="Helsinki">
+            <Contact>
+                <ID>3</ID>
+                <FirstName>Bahis</FirstName>
+                <PhoneNumber>5551234</PhoneNumber>
+                <Gender>Male</Gender>
+            </Contact>
+        <Contact><ID>7</ID><FirstName>Maksim</FirstName><PhoneNumber>59684403</PhoneNumber><Gender>Male</Gender></Contact></City>
+        <City name="Espoo">
+            <Contact>
+                <ID>4</ID>
+                <FirstName>Esperdo</FirstName>
+                <PhoneNumber>5555678</PhoneNumber>
+                <Gender>Female</Gender>
+            </Contact>
+        </City>
+    </Country>
+</PhoneBook>
